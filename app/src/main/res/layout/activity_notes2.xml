@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shivam.maintain_notes.Notes2"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#f3ffff02"
+    android:orientation="vertical"    >
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Rating Bar"
+       android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+       android:textSize="25dp"
+       android:layout_marginBottom="10sp"
+       android:layout_gravity="center_horizontal"
+       android:textColor="#ff0000"/>
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/download"
+       android:layout_margin="20dp"/>
+
+
+   <RatingBar
+       android:id="@+id/ratingBar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="60dp"/>
+
+   <TextView
+       android:id="@+id/value"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Value:"
+       android:textSize="15sp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       />
+   <Button
+       android:id="@+id/button4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="back to main screen"
+       android:textSize="15dp"
+       android:background="#f3ffff02"
+       android:layout_marginBottom="2sp"
+       />
+
+</LinearLayout>
+
+

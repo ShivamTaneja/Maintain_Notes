@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.example.shivam.maintain_notes.Notes1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="#ffff02"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:editable="false"
+    android:text="Click To Add and Retrieve List"
+    android:textSize="20sp"
+    android:layout_gravity="center_horizontal"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:layout_margin="20dp"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    <Button
+        android:textSize="32sp"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="#ffff50"
+        android:text="List 1"
+        android:layout_weight="1"
+     />
+
+    <Button
+        android:textSize="32sp"
+        android:id="@+id/button61"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="#ffff50"
+        android:text="List 2"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button62"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 3"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button63"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 4"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button64"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 5"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button65"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 6"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button66"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 7"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button67"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 8"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button68"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 9"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textSize="32sp"
+            android:id="@+id/button69"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="#ffff50"
+            android:text="List 10"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
